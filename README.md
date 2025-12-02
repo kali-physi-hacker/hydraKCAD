@@ -132,7 +132,7 @@ ninja   # or make
 ---
 
 # 📄 License
-MIT License (recommended)
+MIT License
 
 ---
 
