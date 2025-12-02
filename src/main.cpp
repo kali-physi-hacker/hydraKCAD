@@ -1,0 +1,1 @@
+#include <iostream>#include "maths/Vec3.h"int main() {  Vec3 a = Vec3(1.0, 2.0, 3.0);  Vec3 b = Vec3(4.0, 5.0, 6.0);  std::cout << "The length of vector a is: " << a.length() << std::endl;  std::cout << "The unit vector of a is: " << a.normalize() << std::endl;  return 0;}

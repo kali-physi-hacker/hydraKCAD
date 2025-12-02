@@ -1,0 +1,72 @@
+#--------------------------------------------------------
+# CLion / JetBrains IDE
+#--------------------------------------------------------
+.idea/
+*.iml
+cmake-build*/
+cmake-build-*/
+out/
+build/
+# JetBrains cache directories
+.jb/
+.jetbrains/
+.clion/
+
+#--------------------------------------------------------
+# CMake
+#--------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja build system
+.ninja_deps
+.ninja_log
+
+#--------------------------------------------------------
+# Build artifacts (executables, libs, objects)
+#--------------------------------------------------------
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.a
+*.lib
+
+#--------------------------------------------------------
+# Backup / temp files
+#--------------------------------------------------------
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+#--------------------------------------------------------
+# macOS system junk
+#--------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.AppleDouble
+.DS_Store?
